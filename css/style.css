@@ -5,9 +5,9 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
-a{
-    text-decoration: none;
-    cursor: pointer;
+a{ /* Aplicando estilos a todos los elementos a */
+    text-decoration: none; /* Elimina el subrayado de los links */
+    cursor: pointer; /* Al posicionar el puntero sobre el elemento cambia a una mano */
 }
 header{
     width: 100%;
@@ -25,7 +25,7 @@ header nav .nav-right-section {
     width: 250px;
     height: auto;
     display: flex;
-    list-style: none;
+    list-style: none; /* Elimina las viñetas de la lista */
     justify-content: center;
     align-items: center;
 }
