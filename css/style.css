@@ -23,8 +23,8 @@ header nav .nav-right-section { /* Aplicando etilos a la lista desordenada */
     height: auto;
     display: flex;
     list-style: none; /* Elimina las viñetas de la lista */
-    justify-content: center; /* Se centra dentro del contenedor */
-    align-items: center;
+    justify-content: center; /* Se centra verticalmente */
+    align-items: center; /* Se centra horizontalmente */
 }
 nav .nav-right-section a { /* Se le da un margen de separacion a cada link, como tambien un color negro a las letras */
     margin-right: 10px;
@@ -41,4 +41,19 @@ nav .nav-right-section .menu-icon{ /* Se agrega la imagen de menu */
 nav .nav-right-section img{ /* A la imagen de perfil se le da un borde redondeado y un margen a la izquierda */
     border-radius: 50%;
     margin-left: 10px;
+}
+
+main{
+    margin-top: 150px;
+    text-align: center; /* Centra horizontalmente todo lo que esta dentro de la etiqueta main */
+}
+
+main .main-logo{
+    width: 530px;
+    margin: 0 auto; /* Se indica que el margin arriba-abajo sea de 0 y de derecha e izquierda sea el mismo para cada lado */
+    margin-bottom: 35px;
+}
+main .main-logo img{
+    width: 272px;
+    height: 92px;
 }
