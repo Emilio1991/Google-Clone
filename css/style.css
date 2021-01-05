@@ -1,4 +1,4 @@
-body{
+body{/* Se resetean los margenes y pading del proyecto */
     margin: 0;
     padding: 0;
     font-size: 13px;
@@ -9,31 +9,28 @@ a{ /* Aplicando estilos a todos los elementos a */
     text-decoration: none; /* Elimina el subrayado de los links */
     cursor: pointer; /* Al posicionar el puntero sobre el elemento cambia a una mano */
 }
-header{
+header{ /* Al header se le aplica un ancho del 100% de la ventana y una altura de 60px */
     width: 100%;
     height: 60px;
 }
-header nav{
+header nav{ /* Se alinea el menu de navegacion a la derecha */
     display: flex;
     justify-content: flex-end;
 }
-header nav{
-    display: flex;
-    justify-content: flex-end;
-}
-header nav .nav-right-section {
+
+header nav .nav-right-section { /* Aplicando etilos a la lista desordenada */
     width: 250px;
     height: auto;
     display: flex;
     list-style: none; /* Elimina las viñetas de la lista */
-    justify-content: center;
+    justify-content: center; /* Se centra dentro del contenedor */
     align-items: center;
 }
-nav .nav-right-section a {
+nav .nav-right-section a { /* Se le da un margen de separacion a cada link, como tambien un color negro a las letras */
     margin-right: 10px;
     color: black;
 }
-nav .nav-right-section .menu-icon{
+nav .nav-right-section .menu-icon{ /* Se agrega la imagen de menu */
     background-image: url('https://static.thenounproject.com/png/756729-200.png');
     background-repeat: no-repeat;
     background-position: center;
@@ -41,7 +38,7 @@ nav .nav-right-section .menu-icon{
     width: 30px;
     height: 30px;
 }
-nav .nav-right-section img{
+nav .nav-right-section img{ /* A la imagen de perfil se le da un borde redondeado y un margen a la izquierda */
     border-radius: 50%;
     margin-left: 10px;
 }
